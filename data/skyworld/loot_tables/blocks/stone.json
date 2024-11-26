@@ -26,7 +26,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 0
+          "weight": 90
         },
         {
           "type": "minecraft:loot_table",
