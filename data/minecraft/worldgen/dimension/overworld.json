@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:noise",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": {
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "seed": 0,
+        "preset": "minecraft:overworld"
+      },
+      "noise": {
+        "density_function": "minecraft:overworld",
+        "height": 128,
+        "min_y": 0,
+        "sea_level": 63,
+        "sampling": {
+          "xz_scale": 1.0,
+          "y_scale": 1.0,
+          "xz_factor": 80.0,
+          "y_factor": 80.0
+        },
+        "size_horizontal": 1,
+        "size_vertical": 2,
+        "density_factor": 1.0,
+        "density_offset": -0.5,
+        "top_slide": {
+          "target": -10,
+          "size": 3,
+          "offset": 0
+        },
+        "bottom_slide": {
+          "target": -10,
+          "size": 3,
+          "offset": 0
+        },
+        "default_block": {
+          "name": "minecraft:stone"
+        },
+        "default_fluid": {
+          "name": "minecraft:air"
+        }
+      },
+      "amplified": false,
+      "structure_overrides": [],
+      "custom": {
+        "islands": {
+          "spacing": 50,
+          "small_islands": {
+            "min_diameter": 10,
+            "max_diameter": 15,
+            "frequency": 90
+          },
+          "large_islands": {
+            "min_diameter": 30,
+            "max_diameter": 50,
+            "frequency": 10
+          },
+          "ocean_islands": {
+            "min_diameter": 40,
+            "max_diameter": 50,
+            "ice_layers": [
+              2,
+              3
+            ],
+            "water_fill": true,
+            "frequency": 5
+          },
+          "height_range": {
+            "main": [
+              52,
+              76
+            ],
+            "variation": 20
+          }
+        }
+      }
+    }
+  }
+}
