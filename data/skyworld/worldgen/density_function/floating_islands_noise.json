@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:old_blended_noise",
+  "smear_scale_multiplier": 4,
+  "xz_factor": 60,
+  "xz_scale": 0.3,
+  "y_factor": 150,
+  "y_scale": 0.3
+}

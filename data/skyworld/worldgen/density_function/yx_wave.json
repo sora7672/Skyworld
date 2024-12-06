@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "argument1": "skyworld:x_wave",
+  "argument2": "skyworld:y_wave"
+}

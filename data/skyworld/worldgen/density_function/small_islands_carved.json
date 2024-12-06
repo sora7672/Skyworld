@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:blend_density",
+      "argument": {
+        "type": "minecraft:noise",
+        "noise": "skyworld:small_island_negative_noise",
+        "xz_scale": 1,
+        "y_scale": 1
+      }
+    },
+    "min_inclusive": -0.55,
+    "max_exclusive": 0,
+    "when_in_range": -1,
+    "when_out_of_range": 0
+  },
+  "argument2": "skyworld:small_islands"
+}

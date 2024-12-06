@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "skyworld:sky_islands",
+    "settings": "skyworld:sky_islands_small",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "preset": "minecraft:overworld"

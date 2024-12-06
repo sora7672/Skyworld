@@ -1,6 +1,70 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Skyworld: A datapack that creates floating islands with resources"
+    "description": [
+      {
+        "text": "Skyworld",
+        "color": "dark_aqua"
+      },
+      {
+        "text": " by ",
+        "color": "white"
+      },
+      {
+        "text": "xx",
+        "obfuscated": true,
+        "color": "dark_gray"
+      },
+      {
+        "text": "Sora_7672",
+        "color": "light_purple"
+      },
+      {
+        "text": "xx",
+        "obfuscated": true,
+        "color": "dark_gray"
+      },
+      {
+        "text": " Create your ",
+        "color": "white"
+      },
+      {
+        "text": "D",
+        "color": "red"
+      },
+      {
+        "text": "r",
+        "color": "gold"
+      },
+      {
+        "text": "e",
+        "color": "yellow"
+      },
+      {
+        "text": "a",
+        "color": "green"
+      },
+      {
+        "text": "m",
+        "color": "aqua"
+      },
+      {
+        "text": " ",
+        "color": "white"
+      },
+      {
+        "text": "S",
+        "color": "blue"
+      },
+      {
+        "text": "k",
+        "color": "light_purple"
+      },
+      {
+        "text": "y",
+        "color": "red"
+      }
+    ]
+
   }
 }

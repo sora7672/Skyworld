@@ -1,10 +1,10 @@
 {
   "dimensions": {
     "minecraft:overworld": {
-      "type": "minecraft:overworld",
+      "type": "skyworld:sky_islands_small",
       "generator": {
         "type": "minecraft:noise",
-        "settings": "skyworld:sky_islands",
+        "settings": "skyworld:sky_islands_small",
         "biome_source": {
           "type": "minecraft:multi_noise",
           "preset": "minecraft:overworld"
