@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "skyworld:diamond",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

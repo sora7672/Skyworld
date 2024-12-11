@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "skyworld:quartz",
+          "weight": 70
+        }
+      ]
+    }
+  ]
+}

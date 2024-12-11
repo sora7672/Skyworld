@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "argument1": "skyworld:skyislands_y",
+  "argument2": "skyworld:reduced_islands"
+}

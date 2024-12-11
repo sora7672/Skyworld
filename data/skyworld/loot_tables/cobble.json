@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "weight": 90
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "skyworld:deepslate_cobble",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "skyworld:metals",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

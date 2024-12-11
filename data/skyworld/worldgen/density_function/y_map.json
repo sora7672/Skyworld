@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:mul",
+  "argument1": "skyworld:skyislands_y",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "skyworld:skyislands_y",
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 0.25,
+          "argument2": {
+            "type": "minecraft:shifted_noise",
+            "noise": "skyworld:small_island_negative_noise",
+            "xz_scale": 1,
+            "y_scale": 1,
+            "shift_x": 8,
+            "shift_y": 0,
+            "shift_z": 0
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 0.25,
+          "argument2": {
+            "type": "minecraft:shifted_noise",
+            "noise": "skyworld:small_island_negative_noise",
+            "xz_scale": 1,
+            "y_scale": 1,
+            "shift_x": -8,
+            "shift_y": 0,
+            "shift_z": 0
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 0.25,
+          "argument2": {
+            "type": "minecraft:shifted_noise",
+            "noise": "skyworld:small_island_negative_noise",
+            "xz_scale": 1,
+            "y_scale": 1,
+            "shift_x": 0,
+            "shift_y": 0,
+            "shift_z": 8
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 0.25,
+          "argument2": {
+            "type": "minecraft:shifted_noise",
+            "noise": "skyworld:small_island_negative_noise",
+            "xz_scale": 1,
+            "y_scale": 1,
+            "shift_x": 0,
+            "shift_y": 0,
+            "shift_z": -8
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:noise",
+      "noise": "skyworld:reducing_noise",
+      "xz_scale": 0.8,
+      "y_scale": 1
+    },
+    "min_inclusive": 0.5,
+    "max_exclusive": 1.1,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  },
+  "argument2": "skyworld:small_islands_carved"
+}
