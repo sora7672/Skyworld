@@ -7,12 +7,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_copper",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "skyworld:gold",
-          "weight": 10
+          "weight": 20
         }
       ]
     }

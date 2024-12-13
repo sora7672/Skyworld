@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "skyworld:load"
+    "skyworld:load",
+    "teleports:setup"
   ]
 }

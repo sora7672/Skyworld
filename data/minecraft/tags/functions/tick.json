@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "skyworld:tick"
+    "skyworld:tick",
+    "teleports:tick"
   ]
 }
