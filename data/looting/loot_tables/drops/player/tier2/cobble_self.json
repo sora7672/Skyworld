@@ -10,7 +10,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier1/gravel",
+          "name": "looting:drops/player/tier2/gravel",
           "weight": 60
         }
       ]
@@ -19,13 +19,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 85
-        },
-        {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier1/minerals",
-          "weight": 15,
+          "name": "looting:drops/player/tier2/minerals",
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_nbt",

@@ -34,13 +34,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 90
-        },
-        {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/metals",
-          "weight": 10,
+          "name": "looting:drops/player/tier2/fortune_metals",
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_nbt",

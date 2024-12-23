@@ -46,13 +46,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 80
-        },
-        {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier2/minerals",
-          "weight": 20,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_nbt",
