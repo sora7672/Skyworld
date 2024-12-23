@@ -128,7 +128,7 @@
       ]
     },
     {
-      "rolls": 5
+      "rolls": 5,
       "entries": [
         {
           "type": "minecraft:empty",
