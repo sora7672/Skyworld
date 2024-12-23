@@ -47,7 +47,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals_t3",
+          "name": "looting:drops/player/tier3/minerals_t3",
           "weight": 70
         }
       ]

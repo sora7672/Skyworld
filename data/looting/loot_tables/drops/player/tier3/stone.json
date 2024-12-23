@@ -5,22 +5,22 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/cobbled_stones",
+          "name": "looting:drops/player/tier3/cobbled_stones",
           "weight": 10
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/alternative_stones",
+          "name": "looting:drops/player/tier3/alternative_stones",
           "weight": 20
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/rare_stones",
+          "name": "looting:drops/player/tier3/rare_stones",
           "weight": 20
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/prismarine",
+          "name": "looting:drops/player/tier3/prismarine",
           "weight": 20,
           "conditions": [
             {

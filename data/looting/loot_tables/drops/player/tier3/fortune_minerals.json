@@ -5,12 +5,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier3/minerals",
+          "weight": 5,
           "functions": []
         }
       ],
@@ -39,12 +39,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier3/minerals",
+          "weight": 5,
           "functions": []
         }
       ],
@@ -70,12 +70,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier3/minerals",
+          "weight": 5,
           "functions": []
         }
       ],
@@ -101,12 +101,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier3/minerals",
+          "weight": 5,
           "functions": []
         }
       ],
@@ -128,16 +128,16 @@
       ]
     },
     {
-      "rolls": 5,
+      "rolls": 5
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier3/minerals",
+          "weight": 5,
           "functions": []
         }
       ],
@@ -163,12 +163,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier2/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier3/minerals",
+          "weight": 5,
           "functions": []
         }
       ],

@@ -6,16 +6,16 @@
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/cobble_self",
-          "weight": 13
+          "weight": 15
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/limestone",
-          "weight": 7
+          "weight": 10
         },
         {
           "type": "minecraft:empty",
-          "weight": 80
+          "weight": 75
         }
       ]
     }

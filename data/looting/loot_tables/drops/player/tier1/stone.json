@@ -11,7 +11,7 @@
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/alternative_stones",
-          "weight": 10
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",
@@ -31,7 +31,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 70
+          "weight": 60
         }
       ]
     }
