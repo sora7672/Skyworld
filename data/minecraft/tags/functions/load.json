@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
+    "helper:start_load",
     "skyworld:load",
     "looting:setup",
-    "teleports:setup"
+    "teleports:setup",
+    "helper:end_load"
   ]
 }

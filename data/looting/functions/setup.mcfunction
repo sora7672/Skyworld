@@ -14,7 +14,7 @@ execute as @a unless score @s mining_exp matches 1.. run scoreboard players set 
 
 ## All user info
 
-execute as @a run tellraw @s ["",{"text":"Loaded looting. ","color":"white"}]
+execute as @a run tellraw @s ["",{"text":"Loaded looting module.","color":"white"}]
 
 
 
