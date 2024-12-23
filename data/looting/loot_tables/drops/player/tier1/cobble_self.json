@@ -20,18 +20,14 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier1/minerals",
-          "weight": 10,
+          "name": "looting:drops/player/tier1/fortune_minerals",
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{broken_by_player:1b}"
             }
           ]
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 90
         }
       ]
     }

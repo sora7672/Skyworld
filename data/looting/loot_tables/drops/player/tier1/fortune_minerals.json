@@ -1,0 +1,193 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals",
+          "weight": 15,
+          "functions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "levels": {
+                    "min": 1,
+                    "max": 10
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals",
+          "weight": 15,
+          "functions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals",
+          "weight": 15,
+          "functions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals",
+          "weight": 15,
+          "functions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": {
+                  "min": 3,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals",
+          "weight": 15,
+          "functions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals",
+          "weight": 15,
+          "functions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

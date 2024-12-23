@@ -46,13 +46,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 85
-        },
-        {
           "type": "minecraft:loot_table",
-          "name": "looting:drops/player/tier1/minerals",
-          "weight": 15,
+          "name": "looting:drops/player/tier1/fortune_minerals",
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_nbt",
