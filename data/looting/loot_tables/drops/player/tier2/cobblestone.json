@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/cobble_self",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/limestone",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        }
+      ]
+    }
+  ]
+}

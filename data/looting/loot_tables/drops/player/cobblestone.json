@@ -1,0 +1,81 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "looting:drops/player/tier1/cobblestone",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:context",
+                      "target": "this"
+                    },
+                    "score": "mining_tier"
+                  },
+                  "range": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "looting:drops/player/tier2/cobblestone",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:context",
+                      "target": "this"
+                    },
+                    "score": "mining_tier"
+                  },
+                  "range": {
+                    "min": 2,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "looting:drops/player/tier3/cobblestone",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:context",
+                        "target": "this"
+                      },
+                      "score": "mining_tier"
+                    },
+                    "range": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

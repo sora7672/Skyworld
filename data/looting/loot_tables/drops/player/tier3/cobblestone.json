@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier3/cobble_self",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier3/limestone",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 60
+        }
+      ]
+    }
+  ]
+}

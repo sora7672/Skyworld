@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/gravel",
+          "weight": 70
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/minerals",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{broken_by_player:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

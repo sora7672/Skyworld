@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "skyworld:load",
+    "looting:setup",
     "teleports:setup"
   ]
 }

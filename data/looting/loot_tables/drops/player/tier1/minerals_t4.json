@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:prismarine_crystals",
+              "weight": 70,
+              "conditions": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:lapis_lazuli",
+              "weight": 70
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals_t5",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

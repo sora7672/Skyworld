@@ -11,7 +11,7 @@
               "condition": "minecraft:survives_explosion"
             }
           ],
-          "name": "skyworld:blocks/cobblestone"
+          "name": "looting:blocks/cobblestone"
         }
       ],
       "rolls": 1.0

@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:blackstone",
+              "weight": 70,
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 13000,
+                    "max": 23000
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cobblestone",
+              "weight": 70
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:basalt",
+              "weight": 30,
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 13000,
+                    "max": 23000
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cobbled_deepslate",
+              "weight": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 90
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/metals",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{broken_by_player:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

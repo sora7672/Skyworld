@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "create:scoria",
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 17000,
+                    "max": 19000
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherrack",
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 5000,
+                    "max": 7000
+                  },
+                  "period": 24000
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "create:limestone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/minerals",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{broken_by_player:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

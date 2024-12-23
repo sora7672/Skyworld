@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "skyworld:tick",
-    "teleports:tick"
+    "teleports:tick",
+    "looting:tick"
   ]
 }

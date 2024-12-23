@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tuff",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:asurine",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:veridium",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:crimsite",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:ochrum",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/metals",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{broken_by_player:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

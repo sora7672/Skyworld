@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/other/tables/sand",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

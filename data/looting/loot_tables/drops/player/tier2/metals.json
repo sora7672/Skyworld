@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "create:raw_zinc",
+              "weight": 60,
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 10
+                  },
+                  "range": {
+                    "min": 5,
+                    "max": 10
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:raw_iron",
+              "weight": 60
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/metals_t2",
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

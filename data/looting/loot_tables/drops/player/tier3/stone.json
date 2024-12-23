@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/cobbled_stones",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/alternative_stones",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/rare_stones",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/prismarine",
+          "weight": 20,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

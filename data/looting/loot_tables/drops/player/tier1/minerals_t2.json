@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "weight": 70,
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:time_check",
+                      "value": {
+                        "min": 17000,
+                        "max": 19000
+                      },
+                      "period": 24000
+                    },
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "minecraft:uniform",
+                        "min": 0,
+                        "max": 10
+                      },
+                      "range": {
+                        "min": 5,
+                        "max": 10
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:redstone",
+              "weight": 70
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier1/minerals_t3",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

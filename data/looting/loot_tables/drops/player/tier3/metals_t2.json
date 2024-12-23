@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "looting:drops/player/tier2/metals_t3",
+          "weight": 25
+        }
+      ]
+    }
+  ]
+}
