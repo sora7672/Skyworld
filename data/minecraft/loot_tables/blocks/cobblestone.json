@@ -2,7 +2,8 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -13,8 +14,7 @@
           ],
           "name": "looting:blocks/cobblestone"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }
