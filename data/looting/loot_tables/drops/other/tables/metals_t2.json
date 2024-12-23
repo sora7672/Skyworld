@@ -6,12 +6,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_copper",
-          "weight": 75
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/other/tables/metals_t3",
-          "weight": 25
+          "weight": 20
         }
       ]
     }

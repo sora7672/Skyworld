@@ -6,12 +6,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
-          "weight": 90
+          "weight": 95
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
-          "weight": 10
+          "weight": 5
         }
       ]
     }
