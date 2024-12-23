@@ -40,6 +40,14 @@ scoreboard objectives add home_x dummy
 scoreboard objectives add home_y dummy
 scoreboard objectives add home_z dummy
 
+scoreboard objectives add home_is_set dummy
+scoreboard objectives add home_check_timer dummy
+scoreboard players set @a home_check_timer 0
+
+
+scoreboard objectives add random_sapling dummy
+scoreboard players set global random_sapling 1
+
 scoreboard objectives add home trigger
 scoreboard objectives add sethome trigger
 scoreboard players enable @a home

@@ -23,6 +23,10 @@ execute if score player_home enabled_modules matches 1 if score player_home time
 # reset timer
 execute if score player_home enabled_modules matches 1 if score player_home timer matches 10.. run scoreboard players set player_home timer 0
 
+
+execute as @a[scores={home_check_timer=1..}] if score player_home enabled_modules matches 1 unless score @s home_is_set matches 1 run scoreboard players remove @s home_check_timer 1
+execute as @a[scores={home_check_timer=..0}] if score player_home enabled_modules matches 1 unless score @s home_is_set matches 1 run function teleports:player_home/info_no_home
+
 ## random_tp stuff
 
 # reduce each players rtp cooldown
