@@ -66,5 +66,25 @@
       }
     ]
 
+  },
+  "filter": {
+    "block": [
+        { "namespace": "create", "path": "recipes/filling/glowstone.json" },
+        { "namespace": "create", "path": "recipes/filling/redstone.json" },
+        { "namespace": "create", "path": "recipes/haunting/blackstone.json" },
+        { "namespace": "create", "path": "recipes/haunting/infested_chiseled_stone_bricks.json" },
+        { "namespace": "create", "path": "recipes/haunting/infested_cracked_stone_bricks.json" },
+        { "namespace": "create", "path": "recipes/haunting/infested_deepslate.json" },
+        { "namespace": "create", "path": "recipes/haunting/infested_mossy_stone_bricks.json" },
+        { "namespace": "create", "path": "recipes/haunting/infested_stone_bricks.json" },
+        { "namespace": "create", "path": "recipes/haunting/infested_stone.json" },
+        { "namespace": "create", "path": "recipes/haunting/soul_sand.json" },
+        { "namespace": "create", "path": "recipes/haunting/soul_soil.json" },
+        { "namespace": "create", "path": "recipes/splashing/gravel.json" },
+        { "namespace": "create", "path": "recipes/splashing/magma_block.json" },
+        { "namespace": "create", "path": "recipes/splashing/red_sand.json" },
+        { "namespace": "create", "path": "recipes/splashing/soul_sand.json" }
+
+    ]
   }
 }
