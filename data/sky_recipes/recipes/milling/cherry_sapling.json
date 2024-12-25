@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_sapling"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:black_dye",
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:pink_dye",
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:red_dye",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 100
+}

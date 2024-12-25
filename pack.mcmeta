@@ -83,7 +83,8 @@
         { "namespace": "create", "path": "recipes/splashing/gravel.json" },
         { "namespace": "create", "path": "recipes/splashing/magma_block.json" },
         { "namespace": "create", "path": "recipes/splashing/red_sand.json" },
-        { "namespace": "create", "path": "recipes/splashing/soul_sand.json" }
+        { "namespace": "create", "path": "recipes/splashing/soul_sand.json" },
+        { "namespace": "minecraft", "path": "green_dye.json" }
 
     ]
   }

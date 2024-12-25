@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_sapling"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:brown_dye",
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:green_dye",
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 100
+}

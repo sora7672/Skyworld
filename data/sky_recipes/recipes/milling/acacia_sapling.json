@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_sapling"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lime_dye",
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:brown_dye",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 100
+}

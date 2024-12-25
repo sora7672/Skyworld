@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+
+  ],
+  "results": [
+
+    {
+      "item": "minecraft:kelp",
+      "count": 2,
+      "nbt": {
+        "display": {
+          "Name": "{\"text\":\"Fake Kelp\",\"italic\":false}"
+        }
+      }
+    }
+  ]
+}

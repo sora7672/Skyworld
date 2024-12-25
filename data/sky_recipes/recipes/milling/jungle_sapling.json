@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_sapling"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:black_dye",
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:green_dye",
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:brown_dye",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 100
+}

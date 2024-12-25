@@ -1,0 +1,27 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "BCB",
+    "BEB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    },
+    "E": {
+      "item": "create:empty_blaze_burner"
+    }
+  },
+  "result": {
+    "item": "create:blaze_burner",
+    "count": 1
+  }
+
+}
