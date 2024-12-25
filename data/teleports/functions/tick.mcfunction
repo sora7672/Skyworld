@@ -15,6 +15,7 @@ execute if score rescue_tp enabled_modules matches 1 if score set_rescue_pos tim
 ## player_home stuff
 
 # reduce each players home cooldown
+execute as @a unless score @s home_cooldown matches 0.. run scoreboard players set @s home_cooldown 0
 execute as @a[scores={home_cooldown=1..}] if score player_home enabled_modules matches 1 run scoreboard players remove @s home_cooldown 1
 # trigger timer up
 execute if score player_home enabled_modules matches 1 run scoreboard players add player_home timer 1
@@ -29,7 +30,13 @@ execute as @a[scores={home_check_timer=..0}] if score player_home enabled_module
 
 ## random_tp stuff
 
+# first safety tp, if player is not spawning on island.
+execute as @a[tag=!safe_start] run function teleports:random_tp/myfunction
+
+
+
 # reduce each players rtp cooldown
+execute as @a unless score @s random_tp_cooldown matches 0.. run scoreboard players set @s random_tp_cooldown 0
 execute as @a[scores={random_tp_cooldown=1..}] if score random_tp enabled_modules matches 1 run scoreboard players remove @s random_tp_cooldown 1
 # trigger timer up
 execute if score random_tp enabled_modules matches 1 run scoreboard players add random_tp timer 1

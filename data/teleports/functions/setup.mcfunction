@@ -42,7 +42,7 @@ scoreboard objectives add home_z dummy
 
 scoreboard objectives add home_is_set dummy
 scoreboard objectives add home_check_timer dummy
-scoreboard players set @a home_check_timer 0
+execute as @a run scoreboard players set @s home_check_timer 0
 
 
 scoreboard objectives add random_sapling dummy
@@ -54,7 +54,7 @@ scoreboard players enable @a home
 scoreboard players enable @a sethome
 
 scoreboard objectives add home_cooldown dummy
-scoreboard players set @a home_cooldown 0
+execute as @a run scoreboard players set @s home_cooldown 0
 
 scoreboard players set player_home timer 0
 
@@ -64,7 +64,7 @@ scoreboard players enable @a random_tp
 scoreboard players set random_tp timer 0
 
 scoreboard objectives add random_tp_cooldown dummy
-scoreboard players set @a random_tp_cooldown 0
+execute as @a run scoreboard players set @s random_tp_cooldown 0
 
 ## All user info
 
