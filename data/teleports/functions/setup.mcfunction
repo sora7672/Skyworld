@@ -45,13 +45,10 @@ scoreboard objectives add home_check_timer dummy
 execute as @a run scoreboard players set @s home_check_timer 0
 
 
-scoreboard objectives add random_sapling dummy
-scoreboard players set global random_sapling 1
-
 scoreboard objectives add home trigger
-scoreboard objectives add sethome trigger
+scoreboard objectives add set_home trigger
 scoreboard players enable @a home
-scoreboard players enable @a sethome
+scoreboard players enable @a set_home
 
 scoreboard objectives add home_cooldown dummy
 execute as @a run scoreboard players set @s home_cooldown 0
