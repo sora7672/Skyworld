@@ -11,7 +11,7 @@ scoreboard objectives add enabled_modules dummy
 execute unless score rescue_tp enabled_modules matches 0.. run scoreboard players set rescue_tp enabled_modules 1
 execute unless score player_home enabled_modules matches 0.. run scoreboard players set player_home enabled_modules 1
 execute unless score random_tp enabled_modules matches 0.. run scoreboard players set random_tp enabled_modules 1
-execute unless score always_random_tp enabled_modules matches 0.. run scoreboard players set always_random_tp enabled_modules 1
+execute unless score always_random_tp enabled_modules matches 0.. run scoreboard players set always_random_tp enabled_modules 0
 
 ################# End of editable by the admin ################
 
@@ -34,11 +34,13 @@ scoreboard players set set_rescue_pos timer 0
 scoreboard objectives add rescue_tp_x dummy
 scoreboard objectives add rescue_tp_y dummy
 scoreboard objectives add rescue_tp_z dummy
+scoreboard objectives add rescue_tp_yaw dummy
 
 ## player_home scores
 scoreboard objectives add home_x dummy
 scoreboard objectives add home_y dummy
 scoreboard objectives add home_z dummy
+scoreboard objectives add home_yaw dummy
 
 scoreboard objectives add home_is_set dummy
 scoreboard objectives add home_check_timer dummy
