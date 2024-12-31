@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "attack_skeleton_with_bone": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "create:empty_blaze_burner"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"alternative_blaze\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sky_recipes:alt_blaze_burner"
+  }
+}

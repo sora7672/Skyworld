@@ -1,0 +1,13 @@
+
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "properties": {
+    "type": "minecraft:skeleton"
+  },
+  "predicate": {
+    "flags": {
+      "is_on_fire": true
+    }
+  }
+}
