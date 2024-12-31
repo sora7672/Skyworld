@@ -84,6 +84,8 @@
         { "namespace": "create", "path": "recipes/splashing/magma_block.json" },
         { "namespace": "create", "path": "recipes/splashing/red_sand.json" },
         { "namespace": "create", "path": "recipes/splashing/soul_sand.json" },
+        { "namespace": "create", "path": "recipes/crushing/diorite_recycling.json" },
+        { "namespace": "create", "path": "recipes/crushing/diorite.json" },
         { "namespace": "minecraft", "path": "green_dye.json" }
 
     ]

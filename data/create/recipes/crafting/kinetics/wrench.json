@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    " WI",
+    "S  "
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "W": {
+      "item": "create:cogwheel"
+    }
+  },
+  "result": {
+    "item": "create:wrench",
+    "count": 1
+  }
+}
