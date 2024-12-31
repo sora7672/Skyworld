@@ -5,12 +5,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/metals",
-          "weight": 10,
+          "weight": 20,
           "functions": []
         }
       ],
@@ -39,12 +39,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/metals",
-          "weight": 10,
+          "weight": 20,
           "functions": []
         }
       ],
@@ -70,12 +70,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/metals",
-          "weight": 10,
+          "weight": 20,
           "functions": []
         }
       ],
@@ -101,12 +101,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/metals",
-          "weight": 10,
+          "weight": 20,
           "functions": []
         }
       ],
@@ -132,12 +132,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/metals",
-          "weight": 10,
+          "weight": 20,
           "functions": []
         }
       ],
@@ -163,12 +163,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 80
         },
         {
           "type": "minecraft:loot_table",
           "name": "looting:drops/player/tier1/metals",
-          "weight": 10,
+          "weight": 20,
           "functions": []
         }
       ],
